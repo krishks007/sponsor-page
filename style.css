@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    border: 8px solid white;
+    position: relative;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 40px;
+}
+
+.colorlayer1 {
+    background: #010a11;
+}
+
+.colorlayer2 {
+    background: #FC7174;
+}
+
+.colorlayer3 {
+    background: #EB6859;
+}
+
+.colorlayer4 {
+    background: #FC8862;
+}
+
+.colorlayer5 {
+    background: #FDA268;
+}
+
+.colorlayer6 {
+    background: #FDBB63;
+}
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url('/images/layer1.svg');
+}
+
+.layer2 {
+    background-image: url('/images/layer2.svg');
+}
+
+.layer3 {
+    background-image: url('/images/layer3.svg');
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    background-color: #010a11;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    width: 100%;
+
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 100%;
+
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.text {
+    margin: 0 400px 0 400px;
+    padding: 50px 20px 0 20px;
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1;
+    color: aliceblue;
+    font-size: medium;
+
+}
+
+.text p {
+    font-size: 1.6em;
+}
+
+.blob-motion {
+    position: absolute;
+    transform: translateY(20%);
+    z-index: 1;
+
+}
+
+.container1 #grow {
+    z-index: 1;
+    transform: translatey(35%);
+}
+
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .container3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.container2 #chegg {
+    z-index: 2;
+    transform: translateY(30%);
+    aspect-ratio: 3/2;
+    
+}
+.container3 #lnb {
+    z-index: 2;
+    transform: translateY(-100%) scale(.7);
+    
+}
+
+.container3 #limelight {
+    z-index: 2;
+    transform: translateY(-100%) scale(.4);
+    
+}
+
+.container3 #hangoutcafe {
+    z-index: 2;
+    transform: translateY(-100%) scale(.7) ;
+    
+    
+}
+
+.container3 #foodmahal {
+    z-index: 2;
+    transform: translateY(-100%) scale(.7);
+    
+}
+
+
+.flip {
+    transform: rotate(180deg);
+}
+
+.footer-logo {
+    height: 15rem;
+    width: 15rem;
+}
+
+footer {
+    background-color: rgba(9, 10, 16, 1);
+    ;
+}
